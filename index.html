@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O que você prefere?</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1>O que você prefere?</h1>
+    </div>
+    <div class="container-fluid" id="divOpcoes">
+        <div class="row">
+            <button id="opcao1"></button>
+            <p class="text-center"><strong>Ou</strong></p>
+            <button id="opcao2"></button>
+        </div>
+    </div>
+    <div class="container-fluid mt-3">
+        <div id="resultadoContainer">
+            <div id="resultado"></div>
+        </div>
+        <p id="textoResultado"></p>
+
+        <button class="" onclick="trocar()">Clique aqui no caso de erro ao trocar a pergunta</button><br><br>
+        <label for="categorias">Escolha uma categoria:</label>
+        <select id="categorias" name="categoriaSelecionada">
+            <option value="all">-- Aleatória --</option>
+            <option value="romance">Romance</option>
+            <option value="fantasia">Fantasia</option>
+            <option value="tecnologia">Tecnologia</option>
+            <option value="culturaPop">Cultura Pop</option>
+            <option value="extremo">Extremo</option>
+            <option value="pesadas">Pesado ⚠️</option>
+            <option value="jogos">Jogos</option>
+            <option value="reflexivo">Reflexivo</option>
+        </select>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
