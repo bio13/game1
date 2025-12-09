@@ -22,7 +22,8 @@ const perguntas = {
         ["Se conhecerem em outra vida como amigos primeiro", "Se conhecerem como casal direto"],
         ["Criar uma receita juntos do zero", "Inventar um jogo exclusivo do casal"],
         ["Guardar o primeiro encontro na memória", "Guardar o melhor encontro na memória"],
-        ["Fazer um desafio surpresa um para o outro", "Criar uma rotina fofa para repetir sempre"]
+        ["Fazer um desafio surpresa um para o outro", "Criar uma rotina fofa para repetir sempre"],
+        ["Ter um namoro cheio de fotos e declarações públicas", "Viver um amor discreto, quase secreto"]
 
     ],
     fantasia: [
@@ -125,7 +126,7 @@ const perguntas = {
         ["Ser amado mas não amar", "Amar e não ser amado"],
         ["Ter dinheiro mas sem tempo", "Ter tempo mas viver apertado"],
         ["Nunca errar, mas nunca aprender com nada", "Errar muito, mas evoluir com o tempo"],
-        ["Ser esquecido por todos", "Ser lembrado por algo vergonhoso"],
+        ["Ser esquecido por todos, até mesmo quem você ama", "Ser lembrado por algo vergonhoso por todos"],
         ["Guardar um segredo que destruiria alguém", "Revelar e destruir uma relação"],
         ["Dar tudo de si e não ser reconhecido", "Nunca dar muito e parecer egoísta"],
         ["Saber a data da morte das pessoas que ama", "Saber a data da própria morte"],
@@ -133,6 +134,11 @@ const perguntas = {
         ["Abrir mão do orgulho", "Ver alguém indo embora por causa dele"],
         ["Ter pouco e ser grato", "Ter muito e nunca ser suficiente"],
         ["Aceitar mudanças dolorosas", "Lutar para manter algo que já acabou"]
+        ["Abrir mão de algo que ama por alguém", "Escolher a própria felicidade mesmo machucando o outro"],
+        ["Ter a chance de salvar a vida de alguém que você ama, mas ter que sacrificar sua própria vida", "Não ter a chance de salvar a vida de alguém que você ama, mas ter a chance de viver uma vida longa e feliz"],
+        ["Perdoar uma ferida emocional profunda", "Seguir com o ressentimento para se proteger"],
+        ["Assumir uma falha que magoou alguém", "Esperar que o tempo cure sem conversar"],
+        ["Voltar 5 anos atrás e recomeçar tudo", "Avançar 5 anos instantaneamente"],
     ],
 
 
@@ -172,7 +178,7 @@ const perguntas = {
         ["Viver uma vida simples feliz", "Viver uma vida intensa imprevisível"],
         ["Ajudar o mundo e não ser reconhecido", "Ser reconhecido por algo que não fez sozinho"],
         ["Perdoar alguém que te feriu", "Ser perdoado por algo que você fez"],
-        ["Insistir em um amor incerto", "Desistir de tentar"],
+        ["Arriscar algo grande pelo amor", "Guardar o coração para não se ferir"],
         ["Ter tempo livre mas pouca energia", "Ter energia mas pouco tempo"],
         ["Aprender com erros do passado", "Esquecer erros e seguir em frente"],
         ["Mudar o mundo devagar", "Mudar uma pessoa profundamente"],
