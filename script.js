@@ -6,7 +6,7 @@ const perguntas = {
         ["Receber uma carta de amor", "Receber um presente simbólico"],
         ["Saber tudo sobre o passado do seu parceiro(a)", "Saber tudo o que se passa na cabeça do seu parceiro(a)"],
         ["Passar por uma situação embaraçosa junto com seu parceiro(a)", "Que apenas um dos dois passe por uma situação embaraçosa"],
-        ["Ficar com seu parceiro(a) em uma ilha deserta por uma semana", "Que seu parceiro(a) fique preso no espaço por três meses"],
+        ["Ficar com seu parceiro(a) em uma ilha deserta por uma semana", "Ficar longe e sem contato com seu parceiro(a) por três meses"],
         ["Esquecer o aniversário de namoro", "Esquecer o dia dos namorados"],
         ["Passar um dia inteiro no shopping com seu parceiro(a)", "Passar um dia inteiro em casa com seu parceiro(a)"],
         ["Fazer uma viagem romântica com seu parceiro(a)", "Ficar em casa assistindo filmes com seu parceiro(a)"],
@@ -19,7 +19,10 @@ const perguntas = {
         ["Conversar sobre o que mais admira no outro", "Ouvir o que o outro mais admira em você"],
         ["Poder mudar o que quiser no seu parceiro(a)", "Que seu parceiro(a) mude o que quiser em você"],
         ["Viver num mundo futurista juntos", "Viver num mundo vintage retrô juntos"],
-        ["Se conhecerem em outra vida como amigos primeiro", "Se conhecerem como casal direto"]
+        ["Se conhecerem em outra vida como amigos primeiro", "Se conhecerem como casal direto"],
+        ["Nunca sentir ciúmes", "Sentir um pouco de ciúmes para mostrar que se importa"],
+        ["Amar muito e correr risco de sofrer", "Sentir pouco para não se machucar"],
+        ["Um beijo demorado no pôr do sol", "Um abraço apertado na chuva"]
     ],
     fantasia: [
         ["Ter a habilidade de voar", "Ter a habilidade de ficar invisível"],
@@ -272,5 +275,6 @@ function animarResultado(opcao) {
 
 document.getElementById("opcao1").onclick = () => animarResultado(document.getElementById("opcao1").innerText);
 document.getElementById("opcao2").onclick = () => animarResultado(document.getElementById("opcao2").innerText);
+
 
 window.onload = trocar;
