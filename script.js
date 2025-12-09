@@ -6,7 +6,7 @@ const perguntas = {
         ["Receber uma carta de amor", "Receber um presente simbólico"],
         ["Saber tudo sobre o passado do seu parceiro(a)", "Saber tudo o que se passa na cabeça do seu parceiro(a)"],
         ["Passar por uma situação embaraçosa junto com seu parceiro(a)", "Que apenas um dos dois passe por uma situação embaraçosa"],
-        ["Ficar com seu parceiro(a) em uma ilha deserta por uma semana", "Ficar longe e sem contato com seu parceiro(a) por três meses"],
+        ["Ficar com seu parceiro(a) em uma ilha deserta por uma semana", "Que seu parceiro(a) fique preso no espaço por três meses"],
         ["Esquecer o aniversário de namoro", "Esquecer o dia dos namorados"],
         ["Passar um dia inteiro no shopping com seu parceiro(a)", "Passar um dia inteiro em casa com seu parceiro(a)"],
         ["Fazer uma viagem romântica com seu parceiro(a)", "Ficar em casa assistindo filmes com seu parceiro(a)"],
@@ -20,9 +20,10 @@ const perguntas = {
         ["Poder mudar o que quiser no seu parceiro(a)", "Que seu parceiro(a) mude o que quiser em você"],
         ["Viver num mundo futurista juntos", "Viver num mundo vintage retrô juntos"],
         ["Se conhecerem em outra vida como amigos primeiro", "Se conhecerem como casal direto"],
-        ["Nunca sentir ciúmes", "Sentir um pouco de ciúmes para mostrar que se importa"],
-        ["Amar muito e correr risco de sofrer", "Sentir pouco para não se machucar"],
-        ["Um beijo demorado no pôr do sol", "Um abraço apertado na chuva"]
+        ["Criar uma receita juntos do zero", "Inventar um jogo exclusivo do casal"],
+        ["Guardar o primeiro encontro na memória", "Guardar o melhor encontro na memória"],
+        ["Fazer um desafio surpresa um para o outro", "Criar uma rotina fofa para repetir sempre"]
+
     ],
     fantasia: [
         ["Ter a habilidade de voar", "Ter a habilidade de ficar invisível"],
@@ -179,7 +180,92 @@ const perguntas = {
         ["Abrir mão de algo por alguém", "Ver alguém abrir mão por você"],
         ["Ter coragem de recomeçar", "Ter paciência para continuar"],
         ["Saber o motivo de tudo", "Aceitar que nem tudo tem resposta"]
+    ],
+
+    all: [
+        ["Tomar sorvete no frio", "Tomar chocolate quente no calor"],
+        ["Cair de sono abraçado(a) a alguém", "Ficar conversando até amanhecer"],
+        ["Rir até a barriga doer", "Chorar de emoção com algo bonito"],
+        ["Esquecer o guarda-chuva na chuva", "Esquecer a toalha no banho"],
+        ["Dormir com barulho de chuva", "Dormir com ventilador no máximo"],
+        ["Ganhar um abraço inesperado", "Dar um abraço inesperado"],
+        ["Ter um dia incrível e esquecer fotos", "Tirar várias fotos mas ser um dia normal"],
+        ["Pão com manteiga", "Pão com queijo"],
+        ["Viajar sem planejar", "Planejar tudo com antecedência"],
+        ["Perder a hora para dormir", "Perder a hora para acordar"],
+        ["Ir para a praia", "Ir para o campo"],
+        ["Cachorro como pet", "Gato como pet"],
+        ["Aprender algo novo por conta", "Aprender algo novo com alguém ensinando"],
+        ["Jogar videogame sozinho", "Jogar com amigos"],
+        ["Comprar algo caro e durar anos", "Comprar mais barato e trocar sempre"],
+        ["Assistir série longa", "Assistir filmes curtos"],
+        ["Festa com muitas pessoas", "Passeio com poucas pessoas"],
+        ["Dizer exatamente o que pensa sempre", "Guardar tudo que pensa para si"],
+        ["Receber um presente simples", "Receber uma carta longa e sincera"],
+        ["Conhecer o futuro", "Rever um momento do passado"],
+        ["Ser o mais engraçado da sala", "Ser o mais inteligente"],
+        ["Perder algo e achar depois", "Nunca perder nada"],
+        ["Ter poucos amigos leais", "Ter muitos amigos casuais"],
+        ["Ter muito dinheiro", "Ter muito tempo"],
+        ["Poder pausar o tempo", "Poder acelerar o tempo"],
+        ["Comer pizza todo fim de semana", "Comer hambúrguer todo fim de semana"],
+        ["Ir para o espaço", "Ir para o fundo do mar"],
+        ["Viver sem internet", "Viver sem música"],
+        ["Ser bom em esportes", "Ser bom em artes"],
+        ["Saber todas as línguas", "Tocar todos os instrumentos"],
+        ["Morar no frio", "Morar no calor"],
+        ["Ouvir música o dia todo", "Assistir vídeos o dia todo"],
+        ["Trabalhar com o que ama ganhando pouco", "Trabalhar com algo neutro ganhando bem"],
+        ["Viajar sozinho", "Viajar acompanhado"],
+        ["Conhecer um ídolo", "Ser o ídolo de alguém"],
+        ["Comer doce demais", "Comer salgado demais"],
+        ["Filme de terror", "Filme de comédia"],
+        ["Ter uma memória perfeita", "Esquecer coisas ruins para sempre"],
+        ["Dormir tarde e acordar tarde", "Dormir cedo e acordar cedo"],
+        ["Falar várias línguas medianamente", "Falar uma língua perfeitamente"],
+        ["Perder o celular", "Perder a carteira"],
+        ["Voltar a um momento que marcou", "Pular para um momento futuro importante"],
+        ["Ser mais impulsivo", "Ser mais calculista"],
+        ["Viver um amor intenso curto", "Viver um amor leve porém longo"],
+        ["Pizza doce", "Pizza salgada"],
+        ["Mudar seu nome", "Mudar sua aparência"],
+        ["Atravessar a rua correndo", "Esperar o semáforo mesmo vazio"],
+        ["Encontrar R$50 na rua", "Ganhar um abraço quando mais precisa"],
+        ["Ter uma casa grande", "Ter uma casa pequena e aconchegante"],
+        ["Ser extremamente romântico", "Ser discreto mas profundo"],
+        ["Receber elogios", "Dar elogios"],
+        ["Comer algo novo sem saber o que é", "Comer só o que conhece"],
+        ["Fazer uma viagem sem celular", "Fazer uma viagem só com fotos instantâneas"],
+        ["Aprender um novo hobby por ano", "Aprofundar um único hobby para ser excelente"],
+        ["Receber um bilhete escondido no bolso", "Esconder um bilhete para alguém encontrar depois"],
+        ["Um jantar feito com o que tiver na geladeira", "Pedir delivery do favorito"],
+        ["Dormir na rede ao ar livre", "Dormir em cama com coberta pesada"],
+        ["Andar na chuva sem guarda-chuva", "Tomar banho com luz de velas"],
+        ["Guardar um objeto simbólico", "Guardar uma memória específica na mente"],
+        ["Ter risadas internas com alguém", "Criar piadas internas que só vocês entendem"],
+        ["Dividir a última fatia de comida", "Ficar com fome mas fazer a pessoa rir"],
+        ["Dar um presente feito à mão", "Dar algo que a pessoa deseja faz tempo"],
+        ["Ter uma playlist que conta a história do casal", "Ter um álbum com fotos de fases da vida"],
+        ["Ir a um show de última hora", "Ficar em casa ouvindo o show ao vivo e dançando juntos"],
+        ["Conversar olhando o céu", "Conversar olhando nos olhos"],
+        ["Receber um áudio longo e carinhoso", "Receber mensagens curtas porém frequentes"],
+        ["Planejar metas juntos", "Realizar metas espontaneamente sem planejar"],
+        ["Ter uma tradição só de vocês", "Que tudo vire novidade sempre"],
+        ["Um dia inteiro sem pressa", "Um dia cheio de atividades legais"],
+        ["Descobrir um restaurante novo", "Retornar ao lugar favorito mil vezes"],
+        ["Guardar lembranças em uma caixa", "Guardar lembranças em garrafas com bilhetes"],
+        ["Trocar presentes sem motivo", "Trocar cartas em datas importantes"],
+        ["Ir dormir mesmo com assunto pendente", "Virar a noite conversando até resolver"],
+        ["Receber café pronto", "Preparar café para quem você ama"],
+        ["Ficar olhando fotos antigas", "Criar fotos novas todas as semanas"],
+        ["Fazer promessa de futuro", "Aproveitar ao máximo o presente"],
+        ["Chamar por apelido", "Chamar pelo nome completo com carinho"],
+        ["Ter um cheiro que lembra alguém", "Ter uma música que lembra alguém"],
+        ["Pagar mico em público rindo", "Fingir ser sério mas rachar por dentro"],
+        ["Dançar mesmo sem saber dançar", "Ver alguém dançar e só apreciar"]
+
     ]
+
 
 };
 
@@ -198,13 +284,11 @@ function pegarPergunta() {
 
     let categoria;
     if (categoriaEscolhida === "all") {
-        const chaves = Object.keys(perguntas);
-        categoria = chaves[Math.floor(Math.random() * chaves.length)];
-    } else categoria = categoriaEscolhida;
-
-    if (perguntasRestantes[categoria].length === 0) {
-        perguntasRestantes[categoria] = [...perguntas[categoria]];
+        categoria = "all";
+    } else {
+        categoria = categoriaEscolhida;
     }
+
 
     const index = Math.floor(Math.random() * perguntasRestantes[categoria].length);
     const pergunta = perguntasRestantes[categoria][index];
@@ -275,6 +359,5 @@ function animarResultado(opcao) {
 
 document.getElementById("opcao1").onclick = () => animarResultado(document.getElementById("opcao1").innerText);
 document.getElementById("opcao2").onclick = () => animarResultado(document.getElementById("opcao2").innerText);
-
 
 window.onload = trocar;
